@@ -1,0 +1,23 @@
+INSTRUCTOR ONLY — KEEP OUTSIDE THE PARTICIPANT WEB FOLDER
+
+Page             Category   Selected stimulus
+email-01.html    Regular    Elena Brooks: advising appointment
+email-02.html    Phishing   Research assistant shortlist; same-day 2 p.m. deadline
+email-03.html    Junk       BookLoop Campus Brief: course materials checklist
+
+The phishing message retains the realistic university employment pretext and
+urgency. Its external sender and misleading login destination are the key clues.
+The junk message offers useful academic advice leading to a commercial guide;
+the participant context says this promotion was not requested. The advising
+message uses the expected university staff address and my.sc.edu destination.
+
+No category or difficulty labels are shown in the numbered navigation. Filenames
+have been reassigned for this reduced version; use this mapping for data coding.
+The browser source contains category metadata, so it is visible to source
+inspection, as in the previous exercise. All message-body links are inactive.
+
+There is now one example per category, so there is no within-category range of
+difficulty. Pilot the three selected stimuli before collecting the main data.
+Presentation and message length vary; a simple numbered navigation does not by
+itself control those differences. The regular email is unchanged; the selected
+phishing and junk email wording is preserved from the previous version.

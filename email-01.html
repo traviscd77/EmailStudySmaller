@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="A three-email fictional mail exercise."><title>Email 1 | Student Mail</title><link rel="stylesheet" href="styles.css"></head>
+<body class="three-email-exercise">
+<svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+  <symbol id="mail" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="15" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="search-icon" viewBox="0 0 24 24"><circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/></symbol>
+  <symbol id="delete" viewBox="0 0 24 24"><path d="M3 5h18M9 5V2h6v3M6 5l1 17h10l1-17M10 9v9M14 9v9"/></symbol>
+  <symbol id="archive" viewBox="0 0 24 24"><path d="M4 8v13h16V8M9 12h6"/><rect x="2" y="3" width="20" height="5" rx="1"/></symbol>
+  <symbol id="shield" viewBox="0 0 24 24"><path d="m12 2 9 4v6c0 5-9 10-9 10S3 17 3 12V6zM12 6v7M12 16v1"/></symbol>
+  <symbol id="junk" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m5 5 14 14"/></symbol>
+  <symbol id="sweep" viewBox="0 0 24 24"><path d="m14 2 8 8-8 8-8-8zM2 14l6-6M1 20l7-7M8 23l5-5"/></symbol>
+  <symbol id="folder" viewBox="0 0 24 24"><path d="M2 5h8l2 3h10v13H2zM8 14h9m-3-3 3 3-3 3"/></symbol>
+  <symbol id="reply" viewBox="0 0 24 24"><path d="m10 3-8 7 8 7M3 10h10c6 0 8 4 8 10"/></symbol>
+  <symbol id="reply-all" viewBox="0 0 24 24"><path d="m8 3-7 7 7 7m6-14-7 7 7 7M8 10h6c5 0 8 4 8 10"/></symbol>
+  <symbol id="forward" viewBox="0 0 24 24"><path d="m14 3 8 7-8 7M21 10H11c-6 0-8 4-8 10"/></symbol>
+  <symbol id="tag" viewBox="0 0 24 24"><path d="M2 2h10l10 10-10 10L2 12z"/><circle cx="7" cy="7" r="1"/></symbol>
+</defs></svg>
+<header class="topbar"><span class="app-name">Mail</span><div class="profile" aria-label="Alex Morgan">AM</div></header>
+<nav class="trial-navigation" aria-label="Choose an email">
+<a href="email-01.html" data-email-number="1" aria-current="page">Email 1</a>
+<a href="email-02.html" data-email-number="2">Email 2</a>
+<a href="email-03.html" data-email-number="3">Email 3</a>
+<button id="reset-reports" class="reset-reports" type="button">Reset reports</button>
+</nav>
+<nav class="toolbar" aria-label="Mail actions">
+<button id="keep-email" type="button"><svg class="icon" aria-hidden="true"><use href="#archive"/></svg>Keep</button>
+<button id="delete-email" type="button"><svg class="icon" aria-hidden="true"><use href="#delete"/></svg>Delete</button>
+<button id="report-phishing" type="button"><svg class="icon" aria-hidden="true"><use href="#shield"/></svg>Report phishing</button>
+<button id="report-junk" type="button"><svg class="icon" aria-hidden="true"><use href="#junk"/></svg>Report junk</button>
+</nav>
+<main class="study-layout">
+<p id="mail-status" class="sr-only" role="status" aria-live="polite"></p>
+<article class="reading-pane" aria-labelledby="email-subject">
+<div class="reading-navigation"><span id="message-position"></span></div>
+<div id="deleted-banner" class="delete-feedback" role="status" hidden><span>This email is in Deleted Items.</span><button id="restore-email" type="button">Restore to Inbox</button></div>
+<div id="keep-banner" class="keep-banner" role="status" hidden><span>Kept in the Keep category.</span><button id="undo-keep" type="button">Undo keep</button></div>
+<div id="report-banner" class="report-banner" role="status" hidden><span id="report-confirmation"></span><button id="undo-report" type="button">Undo report</button></div>
+<h1 id="email-subject">Email 1</h1>
+<header class="email-header" hidden><span class="avatar" aria-hidden="true"></span><div class="email-people"><p><strong></strong> <span class="muted email-address"></span></p><p class="muted recipients"></p></div><time></time></header>
+<div class="email-body"><p>Loading email…</p></div>
+<noscript>Enable JavaScript to read and categorize these fictional emails.</noscript>
+</article>
+<details class="workplace-context"><summary>Campus context</summary><p>You are Alex Morgan, a student at the University of South Carolina, enrolled in ITEC 101. The people and messages in this exercise are fictional.</p><p>Campus email formats used here are <strong>@email.sc.edu</strong> for students and <strong>@mailbox.sc.edu</strong> for faculty and staff. Your class uses <strong>blackboard.sc.edu</strong>; student services are available through <strong>my.sc.edu</strong>.</p><p>You have not subscribed to business promotional mailing lists or requested information about textbook rentals.</p></details>
+</main><script src="mail.js" defer></script></body></html>
